@@ -1,0 +1,53 @@
+
+
+.accordion {
+    border-radius: 9px;
+    background-color: #00467F;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-weight: 700;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+    text-align: center;
+}
+
+.nested-accordion{
+    border-radius: 9px;
+    background-color: #454545;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-weight: 700;
+}
+
+.active3, .nested-accordion:hover {
+    background-color:#00467F
+}
+
+a {
+    text-align: center;
+    font-size: 25px;
+    color: #00467F;
+    font-family: 'Source Sans Pro';
+    text-decoration: none;
+}
